@@ -1,0 +1,75 @@
+body {
+  background-color: #f4f4f4;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+ul svg {
+  fill: navy;
+  font-weight: bold;
+  width: 20px;
+  margin-top: -2px;
+  margin-right: 3px;
+}
+
+header {
+  height: 7rem;
+  background-color: #fff;
+}
+
+.my-card {
+  background-color: aliceblue;
+  margin: 1rem 0;
+}
+
+.top-card {
+  padding: 1.25rem 0;
+}
+
+.accordion,
+.accordion-button {
+  background-color: #f4f4f4 !important;
+  --bs-accordion-bg: #f4f4f4;
+}
+
+.accordion-button:focus {
+  box-shadow: unset;
+  border: unset;
+}
+
+.star,
+.empty {
+  color: #ffd600;
+  font-size: 1.5em;
+}
+
+.star::before {
+  content: "\2605";
+}
+
+.btn {
+  background-color: #00bd68;
+  background-image: linear-gradient(-180deg, #00d775, #00bd68);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  outline: 0;
+  overflow: hidden;
+  pointer-events: auto;
+  position: relative;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+  border: 0;
+  padding: 0.85rem 3rem;
+  font-size: 1.35rem;
+}
+
+.btn:hover,
+.btn:active {
+  background: #00bd68 !important;
+}
